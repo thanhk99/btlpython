@@ -18,3 +18,17 @@ def createLocal():
     localList=df['tinh'].tolist()
     localnew=random.choice(localList)
     return localnew
+def createCourse():
+    listLeagues=['English','Japanese','Korean']
+    listLevelEn=['A1','A2','B1','B2','C1','C2']
+    listLevelJa=['N5','N4','N3','N2','N1']
+    listLevelKo=['Sơ cấp','Trung cấp','Cao cấp']
+    course={}
+    course['leangue']=random.choice(listLeagues)
+    if course['leangue']=='English':
+        course['level']=random.choice(listLevelEn)
+        course['goal']=random
+    
+
+        
+    
